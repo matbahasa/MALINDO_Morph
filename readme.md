@@ -36,6 +36,7 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
 |Versi|Jumlah garis|Butir-butir|
 |:---|---:|:---|
 |20180312|232,546|cc 84,403; ec 47,399; ex 100,744|
+|20180418|232,516|cc 84,404; ec 47,400; ex 100,712|
 
 ---
 **Bahasa Indonesia**
@@ -74,3 +75,4 @@ Terdapat empat jenis reduplikasi yang dibedakan dalam kamus MALINDO Morph, yaitu
 |Versi|Jumlah baris|Rincian|
 |:---|---:|:---|
 |20180312|232.546|cc 84.403; ec 47.399; ex 100.744|
+|20180418|232.516|cc 84.404; ec 47.400; ex 100.712|
