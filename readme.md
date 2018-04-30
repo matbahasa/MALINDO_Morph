@@ -6,7 +6,7 @@
 MALINDO Morph merupakan kamus morfologi untuk bahasa Melayu dan bahasa Indonesia.  Kamus MALINDO Morph dilesenkan dengan pelesenan [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ms).  Untuk maklumat terperinci mengenai MALINDO Morph, sila rujuk makalah di bawah ini.
 
 ## Sumber rujukan
-Nomoto, Hiroki, Hannah Choi, David Moeljadi and Francis Bond. 2018. [MALINDO Morph: Morphological dictionary and analyser for Malay/Indonesian](https://aclanthology.coli.uni-saarland.de/volumes/proceedings-of-the-13th-workshop-on-asian-language-resources-alr13). Proceedings of the 13th Workshop on Asian Language Resources (ALR13).
+Nomoto, Hiroki, Hannah Choi, David Moeljadi and Francis Bond. 2018. [MALINDO Morph: Morphological dictionary and analyser for Malay/Indonesian](http://lrec-conf.org/workshops/lrec2018/W29/pdf/8_W29.pdf). Proceedings of the 13th Workshop on Asian Language Resources (ALR13).
 
 ## Format
 `ID [TAB] Akar [TAB] Bentuk lahir [TAB] Awalan/proklitik [TAB] Akhiran/enklitik [TAB] Apitan [TAB] Penggandaan`
@@ -45,7 +45,7 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
 MALINDO Morph merupakan kamus morfologi untuk bahasa Melayu dan bahasa Indonesia. Kamus MALINDO Morph dilisensikan dengan lisensi [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.id). Untuk informasi terperinci tentang MALINDO Morph, mohon merujuk kepada makalah di bawah ini.
 
 ## Sumber rujukan
-Nomoto, Hiroki, Hannah Choi, David Moeljadi and Francis Bond. 2018. [MALINDO Morph: Morphological dictionary and analyser for Malay/Indonesian](https://aclanthology.coli.uni-saarland.de/volumes/proceedings-of-the-13th-workshop-on-asian-language-resources-alr13). Proceedings of the 13th Workshop on Asian Language Resources (ALR13).
+Nomoto, Hiroki, Hannah Choi, David Moeljadi and Francis Bond. 2018. [MALINDO Morph: Morphological dictionary and analyser for Malay/Indonesian](http://lrec-conf.org/workshops/lrec2018/W29/pdf/8_W29.pdf). Proceedings of the 13th Workshop on Asian Language Resources (ALR13).
 
 ## Format
 `ID [TAB] Bentuk dasar [TAB] Bentuk jadian [TAB] Prefiks/proklitik [TAB] Sufiks/enklitik [TAB] Konfiks [TAB] Reduplikasi`
