@@ -45,7 +45,7 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
 MALINDO Morph merupakan kamus morfologi untuk bahasa Melayu dan bahasa Indonesia. Kamus MALINDO Morph dilisensikan dengan lisensi [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.id). Untuk informasi terperinci tentang MALINDO Morph, mohon merujuk kepada makalah di bawah ini.
 
 ## Sumber rujukan
-Nomoto, Hiroki, Hannah Choi, David Moeljadi and Francis Bond. 2018. [MALINDO Morph: Morphological dictionary and analyser for Malay/Indonesian](http://lrec-conf.org/workshops/lrec2018/W29/pdf/8_W29.pdf). Kiyoaki Shirai (ed.) _Proceedings of the LREC 2018 Workshop "The 13th Workshop on Asian Language Resources"_. 36-43.
+Nomoto, Hiroki, Hannah Choi, David Moeljadi and Francis Bond. 2018. [MALINDO Morph: Morphological dictionary and analyser for Malay/Indonesian](http://lrec-conf.org/workshops/lrec2018/W29/pdf/8_W29.pdf). Kiyoaki Shirai (ed.) _Proceedings of the LREC 2018 Workshop "The 13th Workshop on Asian Language Resources"_, 36-43.
 
 ## Format
 `ID [TAB] Bentuk dasar [TAB] Bentuk jadian [TAB] Prefiks/proklitik [TAB] Sufiks/enklitik [TAB] Konfiks [TAB] Reduplikasi`
