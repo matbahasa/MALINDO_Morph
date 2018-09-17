@@ -37,10 +37,10 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
 - `Melayu-Sabah`: [Korpus Variasi Bahasa Melayu: Sabah](https://github.com/matbahasa/Melayu_Sabah)
 
 ### Contoh
-    cc-4023	ada	mengada-adakan	meN-	-kan	0	R-penuh
-    ec-7280	ada	diada-adakan	di-	-kan	0	R-penuh
-    ex-89426	tanggungjawab	dipertanggungjawabkannya	di-+per-	-kan+-nya	0	0
-    ex-89427	tanggungjawab	kebertanggungjawabannya	ber-	-nya	ke--an	0
+    cc-4023	ada	mengada-adakan	meN-	-kan	0	R-penuh Kamus
+    ec-7280	ada	diada-adakan	di-	-kan	0	R-penuh Leipzig
+    ex-89426	tanggungjawab	dipertanggungjawabkannya	di-+per-	-kan+-nya	0	0 Leipzig
+    ex-89427	tanggungjawab	kebertanggungjawabannya	ber-	-nya	ke--an	0 Leipzig
 
 ## Versi
 |Versi|Jumlah garis|Butir-butir|
@@ -88,10 +88,10 @@ Terdapat empat jenis reduplikasi yang dibedakan dalam kamus MALINDO Morph, yaitu
 - `Melayu-Sabah`: [Korpus Variasi Bahasa Melayu: Sabah](https://github.com/matbahasa/Melayu_Sabah)
 
 ### Contoh
-    cc-4023	ada	mengada-adakan	meN-	-kan	0	R-penuh
-    ec-7280	ada	diada-adakan	di-	-kan	0	R-penuh
-    ex-89426	tanggungjawab	dipertanggungjawabkannya	di-+per-	-kan+-nya	0	0
-    ex-89427	tanggungjawab	kebertanggungjawabannya	ber-	-nya	ke--an	0
+    cc-4023	ada	mengada-adakan	meN-	-kan	0	R-penuh Kamus
+    ec-7280	ada	diada-adakan	di-	-kan	0	R-penuh Leipzig
+    ex-89426	tanggungjawab	dipertanggungjawabkannya	di-+per-	-kan+-nya	0	0 Leipzig
+    ex-89427	tanggungjawab	kebertanggungjawabannya	ber-	-nya	ke--an	0 Leipzig
 
 ## Versi
 |Versi|Jumlah baris|Rincian|
