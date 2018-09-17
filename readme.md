@@ -9,7 +9,9 @@ MALINDO Morph merupakan kamus morfologi untuk bahasa Melayu dan bahasa Indonesia
 Nomoto, Hiroki, Hannah Choi, David Moeljadi and Francis Bond. 2018. [MALINDO Morph: Morphological dictionary and analyser for Malay/Indonesian](http://lrec-conf.org/workshops/lrec2018/W29/pdf/8_W29.pdf). Kiyoaki Shirai (ed.) _Proceedings of the LREC 2018 Workshop "The 13th Workshop on Asian Language Resources"_, 36-43.
 
 ## Format
-`ID [TAB] Akar [TAB] Bentuk lahir [TAB] Awalan/proklitik [TAB] Akhiran/enklitik [TAB] Apitan [TAB] Penggandaan`
+`ID [TAB] Akar [TAB] Bentuk lahir [TAB] Awalan/proklitik [TAB] Akhiran/enklitik [TAB] Apitan [TAB] Penggandaan [TAB] Sumber`
+
+Kolum "sumber" ditambah mulai versi 20180917.
 
 ### ID
 `ID` terdiri daripada dua unsur, iaitu
@@ -26,6 +28,14 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
   - `R-ritma_mjmk`: Penggandaan berentak yang merupakan kata majmuk, iaitu gabungan dua perkataan seperti _asal-usul_.
 - `0`: Tidak melibatkan penggandaan.
 
+### Jenis sumber
+
+- `Kamus`: _Kamus Dewan (edisi keempat)_ dan _Kamus Besar Bahasa Indonesia (edisi kelima)_.
+- `Leipzig`: [Koleksi Korpus Leipzig](http://wortschatz.uni-leipzig.de/en/download)
+- `Frogstory-David`: [Indonesian Frog Storytelling Corpus](https://github.com/davidmoeljadi/corpus-frog-storytelling) oleh David Moeljadi.
+- `Melayu-Standard-Lisan`: [Korpus Variasi Bahasa Melayu: Standard Lisan](https://github.com/matbahasa/Melayu_Standard_Lisan)
+- `Melayu-Sabah`: [Korpus Variasi Bahasa Melayu: Sabah](https://github.com/matbahasa/Melayu_Sabah)
+
 ### Contoh
     cc-4023	ada	mengada-adakan	meN-	-kan	0	R-penuh
     ec-7280	ada	diada-adakan	di-	-kan	0	R-penuh
@@ -38,6 +48,7 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
 |20180312|232,546|cc 84,403; ec 47,399; ex 100,744|
 |20180418|232,516|cc 84,404; ec 47,400; ex 100,712|
 |20180817|232,503|cc 84,404; ec 47,400; ex 100,699|
+|20180917|233,390|cc 84,429; ec 48,262; ex 100,699|
 
 ---
 **Bahasa Indonesia**
@@ -49,7 +60,9 @@ MALINDO Morph merupakan kamus morfologi untuk bahasa Melayu dan bahasa Indonesia
 Nomoto, Hiroki, Hannah Choi, David Moeljadi and Francis Bond. 2018. [MALINDO Morph: Morphological dictionary and analyser for Malay/Indonesian](http://lrec-conf.org/workshops/lrec2018/W29/pdf/8_W29.pdf). Kiyoaki Shirai (ed.) _Proceedings of the LREC 2018 Workshop "The 13th Workshop on Asian Language Resources"_, 36-43.
 
 ## Format
-`ID [TAB] Bentuk dasar [TAB] Bentuk jadian [TAB] Prefiks/proklitik [TAB] Sufiks/enklitik [TAB] Konfiks [TAB] Reduplikasi`
+`ID [TAB] Bentuk dasar [TAB] Bentuk jadian [TAB] Prefiks/proklitik [TAB] Sufiks/enklitik [TAB] Konfiks [TAB] Reduplikasi [TAB] Sumber`
+
+Kolum "sumber" ditambah mulai versi 20180917.
 
 ### ID
 `ID` terdiri dari dua unsur, yaitu:
@@ -66,6 +79,14 @@ Terdapat empat jenis reduplikasi yang dibedakan dalam kamus MALINDO Morph, yaitu
   - `R-ritma_mjmk`: Reduplikasi berubah bunyi yang merupakan kata majemuk, yaitu gabungan dua kata seperti _asal-usul_.
 - `0`: Tidak melibatkan reduplikasi.
 
+### Jenis sumber
+
+- `Kamus`: _Kamus Dewan (edisi keempat)_ dan _Kamus Besar Bahasa Indonesia (edisi kelima)_.
+- `Leipzig`: [Koleksi Korpus Leipzig](http://wortschatz.uni-leipzig.de/en/download)
+- `Frogstory-David`: [Indonesian Frog Storytelling Corpus](https://github.com/davidmoeljadi/corpus-frog-storytelling) oleh David Moeljadi.
+- `Melayu-Standard-Lisan`: [Korpus Variasi Bahasa Melayu: Standard Lisan](https://github.com/matbahasa/Melayu_Standard_Lisan)
+- `Melayu-Sabah`: [Korpus Variasi Bahasa Melayu: Sabah](https://github.com/matbahasa/Melayu_Sabah)
+
 ### Contoh
     cc-4023	ada	mengada-adakan	meN-	-kan	0	R-penuh
     ec-7280	ada	diada-adakan	di-	-kan	0	R-penuh
@@ -78,3 +99,4 @@ Terdapat empat jenis reduplikasi yang dibedakan dalam kamus MALINDO Morph, yaitu
 |20180312|232.546|cc 84.403; ec 47.399; ex 100.744|
 |20180418|232.516|cc 84.404; ec 47.400; ex 100.712|
 |20180817|232.503|cc 84.404; ec 47.400; ex 100.699|
+|20180917|233.390|cc 84.429; ec 48.262; ex 100.699|
