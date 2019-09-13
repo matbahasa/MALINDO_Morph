@@ -40,6 +40,7 @@ for filename in glob.glob(os.path.join(path, '*.txt')):
 
 #remove all punctuations
 tokens = [re.sub("[\>\<\/\#\”\“\'\`\(\)\:\;\!\?\"\,\s\.\[\]]+", "", w) for w in tokens]
+tokens = [t for t in tokens if t != ""] #supaya "" tidak akan dihitung nanti
 
 #open MALINDO Morph and make a list of all surface forms
 m = codecs.open('/home/david/MALINDO_Morph/malindo_dic_20180817.tsv', encoding='utf-8', mode='r')
