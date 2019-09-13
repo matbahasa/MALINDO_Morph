@@ -39,7 +39,7 @@ for filename in glob.glob(os.path.join(path, '*.txt')):
             tokens.append(x)
 
 #remove all punctuations
-tokens = [re.sub("[\>\<\/\#\”\“\'\`\(\)\:\;\!\?\"\,\s\.]+", "", w) for w in tokens]
+tokens = [re.sub("[\>\<\/\#\”\“\'\`\(\)\:\;\!\?\"\,\s\.\[,\]]+", "", w) for w in tokens]
 
 #open MALINDO Morph and make a list of all surface forms
 m = codecs.open('/home/david/MALINDO_Morph/malindo_dic_20180817.tsv', encoding='utf-8', mode='r')
