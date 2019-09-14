@@ -2,7 +2,8 @@
 
 # from __future__ import print_function
 # from __future__ import division
-import re, codecs, sys, enchant
+import re, codecs, sys#, enchant (tidak dijaga lagi; diganti dgn pyspellchecker)
+from spellchecker import SpellChecker
 from itertools import permutations
 from pickle import load
 
@@ -1187,7 +1188,8 @@ if __name__ == "__main__":
     nonalph = set()
     # Perkataan bahasa Inggeris
     eng = set()
-    d = enchant.Dict("en_US")
+#    d = enchant.Dict("en_US")
+    d = SpellChecker()
     # Lain-lain
     belum = set()
     p_nonalph = re.compile(r"^[0-9|\-|,|.|%|$|']+$")
@@ -1256,7 +1258,8 @@ if __name__ == "__main__":
                             tambah.add((val[0], token, pro+"+"+val[1], val[2], val[3], val[4]))
 #                        print("kamus_hyp + proklitik")
                 # Perkataan bahasa Inggeris
-                elif d.check(token):
+#                elif d.check(token):
+                elif d.unknown([token]):
                     eng.add((token, token, "0", "0", "0", "0"))
 #                    print("Perkataan bahasa Inggeris")
                 else:
