@@ -9,9 +9,10 @@ MALINDO Morph merupakan kamus morfologi untuk bahasa Melayu dan bahasa Indonesia
 Nomoto, Hiroki, Hannah Choi, David Moeljadi and Francis Bond. 2018. [MALINDO Morph: Morphological dictionary and analyser for Malay/Indonesian](http://lrec-conf.org/workshops/lrec2018/W29/pdf/8_W29.pdf). Kiyoaki Shirai (ed.) _Proceedings of the LREC 2018 Workshop "The 13th Workshop on Asian Language Resources"_, 36-43.
 
 ## Format
-`ID [TAB] Akar [TAB] Bentuk lahir [TAB] Awalan/proklitik [TAB] Akhiran/enklitik [TAB] Apitan [TAB] Penggandaan [TAB] Sumber`
+`ID [TAB] Akar [TAB] Bentuk lahir [TAB] Awalan/proklitik [TAB] Akhiran/enklitik [TAB] Apitan [TAB] Penggandaan [TAB] Sumber [TAB] Dasar [TAB] Lema`
 
-Kolum "sumber" ditambah mulai versi 20180917.
+- Kolum "sumber" ditambah mulai versi 20180917.
+- Kolum "dasar" dan "lema" ditambah mulai versi 20190923.
 
 ### ID
 `ID` terdiri daripada dua unsur, iaitu
@@ -35,12 +36,21 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
 - `Frogstory-David`: [Indonesian Frog Storytelling Corpus](https://github.com/davidmoeljadi/corpus-frog-storytelling) oleh David Moeljadi.
 - `Melayu-Standard-Lisan`: [Korpus Variasi Bahasa Melayu: Standard Lisan](https://github.com/matbahasa/Melayu_Standard_Lisan)
 - `Melayu-Sabah`: [Korpus Variasi Bahasa Melayu: Sabah](https://github.com/matbahasa/Melayu_Sabah)
+- `Melayu-Sarawak`: [Korpus Variasi Bahasa Melayu: Sarawak](https://github.com/matbahasa/Melayu_Sarawak)
+- `Lain`
+
+### Notasi
+
+- `+`: campur
+- `@`: atau
 
 ### Contoh
-    cc-4023	ada	mengada-adakan	meN-	-kan	0	R-penuh Kamus
-    ec-7280	ada	diada-adakan	di-	-kan	0	R-penuh Leipzig
-    ex-89426	tanggungjawab	dipertanggungjawabkannya	di-+per-	-kan+-nya	0	0 Leipzig
-    ex-89427	tanggungjawab	kebertanggungjawabannya	ber-	-nya	ke--an	0 Leipzig
+    cc-4023	ada	mengada-adakan	meN-	-kan	0	R-penuh	Kamus	ada-adakan	mengada-adakan
+    ec-7280	ada	diada-adakan	di-	-kan	0	R-penuh	Leipzig	ada-adakan	mengada-adakan
+    ec-48506	tanggungjawab	dipertanggungjawabkannya	di-+per-	-kan+-nya	0	0	Leipzig	dia+pertanggungjawabkan	dia+mempertanggungjawabkan
+    ec-48508	tanggungjawab	kebertanggungjawabannya	ber-	-nya	ke--an	0	Leipzig	kebertanggungjawaban+dia	kebertanggungjawaban+dia
+    cc-27899	gunting	gunting	0	0	0	0	Kamus	gunting	gunting@menggunting
+    (Lema adalah _gunting_ untuk kata nama dan _menggunting_ untuk kata kerja.)
 
 ## Versi
 |Versi|Jumlah garis|Butir-butir|
@@ -51,6 +61,7 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
 |20180917|233,390|cc 84,429; ec 48,262; ex 100,699|
 |20181125|233,374|cc 84,410; ec 48,274; ex 100,690|
 |20190129|233,372|cc 84,410; ec 48,347; ex 100,615|
+|20190923|234,274|cc 84,415; ec 49,686; ex 100,173|
 
 ---
 **Bahasa Indonesia**
@@ -62,9 +73,10 @@ MALINDO Morph merupakan kamus morfologi untuk bahasa Melayu dan bahasa Indonesia
 Nomoto, Hiroki, Hannah Choi, David Moeljadi and Francis Bond. 2018. [MALINDO Morph: Morphological dictionary and analyser for Malay/Indonesian](http://lrec-conf.org/workshops/lrec2018/W29/pdf/8_W29.pdf). Kiyoaki Shirai (ed.) _Proceedings of the LREC 2018 Workshop "The 13th Workshop on Asian Language Resources"_, 36-43.
 
 ## Format
-`ID [TAB] Bentuk dasar [TAB] Bentuk jadian [TAB] Prefiks/proklitik [TAB] Sufiks/enklitik [TAB] Konfiks [TAB] Reduplikasi [TAB] Sumber`
+`ID [TAB] Bentuk dasar (_root_) [TAB] Bentuk jadian [TAB] Prefiks/proklitik [TAB] Sufiks/enklitik [TAB] Konfiks [TAB] Reduplikasi [TAB] Sumber [TAB] Dasar (_stem_) [TAB] Lema`
 
-Kolum "sumber" ditambah mulai versi 20180917.
+- Kolum "sumber" ditambah mulai versi 20180917.
+- Kolum "dasar" dan "lema" ditambah mulai versi 20190923.
 
 ### ID
 `ID` terdiri dari dua unsur, yaitu:
@@ -88,12 +100,21 @@ Terdapat empat jenis reduplikasi yang dibedakan dalam kamus MALINDO Morph, yaitu
 - `Frogstory-David`: [Indonesian Frog Storytelling Corpus](https://github.com/davidmoeljadi/corpus-frog-storytelling) oleh David Moeljadi.
 - `Melayu-Standard-Lisan`: [Korpus Variasi Bahasa Melayu: Standard Lisan](https://github.com/matbahasa/Melayu_Standard_Lisan)
 - `Melayu-Sabah`: [Korpus Variasi Bahasa Melayu: Sabah](https://github.com/matbahasa/Melayu_Sabah)
+- `Melayu-Sarawak`: [Korpus Variasi Bahasa Melayu: Sarawak](https://github.com/matbahasa/Melayu_Sarawak)
+- `Lain`
+
+### Notasi
+
+- `+`: campur
+- `@`: atau
 
 ### Contoh
-    cc-4023	ada	mengada-adakan	meN-	-kan	0	R-penuh Kamus
-    ec-7280	ada	diada-adakan	di-	-kan	0	R-penuh Leipzig
-    ex-89426	tanggungjawab	dipertanggungjawabkannya	di-+per-	-kan+-nya	0	0 Leipzig
-    ex-89427	tanggungjawab	kebertanggungjawabannya	ber-	-nya	ke--an	0 Leipzig
+    cc-4023	ada	mengada-adakan	meN-	-kan	0	R-penuh	Kamus	ada-adakan	mengada-adakan
+    ec-7280	ada	diada-adakan	di-	-kan	0	R-penuh	Leipzig	ada-adakan	mengada-adakan
+    ec-48507	tanggung jawab	dipertanggungjawabkannya	di-+per-	-kan+-nya	0	0	Leipzig	dia+pertanggungjawabkan	dia+mempertanggungjawabkan
+    ec-48509	tanggung jawab	kebertanggungjawabannya	ber-	-nya	ke--an	0	Leipzig	kebertanggungjawaban+dia	kebertanggungjawaban+dia
+    cc-27899	gunting	gunting	0	0	0	0	Kamus	gunting	gunting@menggunting
+    (Lemanya adalah _gunting_ untuk nomina dan _menggunting_ untuk verba.)
 
 ## Versi
 |Versi|Jumlah baris|Rincian|
@@ -104,3 +125,4 @@ Terdapat empat jenis reduplikasi yang dibedakan dalam kamus MALINDO Morph, yaitu
 |20180917|233.390|cc 84.429; ec 48.262; ex 100.699|
 |20181125|233.374|cc 84.410; ec 48.274; ex 100.690|
 |20190129|233.372|cc 84.410; ec 48.347; ex 100.615|
+|20190923|234.274|cc 84.415; ec 49.686; ex 100.173|
