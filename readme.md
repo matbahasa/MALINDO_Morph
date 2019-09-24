@@ -1,6 +1,5 @@
-# MALINDO Morph
 
-**Bahasa Melayu** (Bahasa Indonesia mengikuti bahasa Melayu)
+**Bahasa Melayu** ([Bahasa Indonesia](pendahuluan-1) mengikuti bahasa Melayu)
 
 ## Pendahuluan
 MALINDO Morph merupakan kamus morfologi untuk bahasa Melayu dan bahasa Indonesia.  Kamus MALINDO Morph dilesenkan dengan pelesenan [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ms).  Untuk maklumat terperinci mengenai MALINDO Morph, sila rujuk makalah di bawah ini.
@@ -50,7 +49,7 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
     ec-48506	tanggungjawab	dipertanggungjawabkannya	di-+per-	-kan+-nya	0	0	Leipzig	dia+pertanggungjawabkan	dia+mempertanggungjawabkan
     ec-48508	tanggungjawab	kebertanggungjawabannya	ber-	-nya	ke--an	0	Leipzig	kebertanggungjawaban+dia	kebertanggungjawaban+dia
     cc-27899	gunting	gunting	0	0	0	0	Kamus	gunting	gunting@menggunting
-    (Lema adalah _gunting_ untuk kata nama dan _menggunting_ untuk kata kerja.)
+    (Lema adalah "gunting" untuk kata nama dan "menggunting" untuk kata kerja.)
 
 ## Versi
 |Versi|Jumlah garis|Butir-butir|
@@ -114,7 +113,7 @@ Terdapat empat jenis reduplikasi yang dibedakan dalam kamus MALINDO Morph, yaitu
     ec-48507	tanggung jawab	dipertanggungjawabkannya	di-+per-	-kan+-nya	0	0	Leipzig	dia+pertanggungjawabkan	dia+mempertanggungjawabkan
     ec-48509	tanggung jawab	kebertanggungjawabannya	ber-	-nya	ke--an	0	Leipzig	kebertanggungjawaban+dia	kebertanggungjawaban+dia
     cc-27899	gunting	gunting	0	0	0	0	Kamus	gunting	gunting@menggunting
-    (Lemanya adalah _gunting_ untuk nomina dan _menggunting_ untuk verba.)
+    (Lemanya adalah "gunting" untuk nomina dan "menggunting" untuk verba.)
 
 ## Versi
 |Versi|Jumlah baris|Rincian|
