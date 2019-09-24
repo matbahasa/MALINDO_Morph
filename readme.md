@@ -1,5 +1,5 @@
 
-**Bahasa Melayu** ([Bahasa Indonesia](pendahuluan-1) mengikuti bahasa Melayu)
+**Bahasa Melayu** ([Bahasa Indonesia](#pendahuluan-1) mengikuti bahasa Melayu)
 
 ## Pendahuluan
 MALINDO Morph merupakan kamus morfologi untuk bahasa Melayu dan bahasa Indonesia.  Kamus MALINDO Morph dilesenkan dengan pelesenan [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ms).  Untuk maklumat terperinci mengenai MALINDO Morph, sila rujuk makalah di bawah ini.
