@@ -38,6 +38,8 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
 - `Melayu-Standard-Lisan`: [Korpus Variasi Bahasa Melayu: Standard Lisan](https://github.com/matbahasa/Melayu_Standard_Lisan)
 - `Melayu-Sabah`: [Korpus Variasi Bahasa Melayu: Sabah](https://github.com/matbahasa/Melayu_Sabah)
 - `Melayu-Sarawak`: [Korpus Variasi Bahasa Melayu: Sarawak](https://github.com/matbahasa/Melayu_Sarawak)
+- `Melayu-Brunei`: [Korpus Variasi Bahasa Melayu: Brunei](https://github.com/matbahasa/Melayu_Brunei)
+- `Indo-Jakarta-Lisan`: [Korpus Variasi Bahasa Melayu: Jakarta Lisan](https://github.com/matbahasa/)
 - `Lain`
 
 ### Notasi
@@ -104,6 +106,8 @@ Terdapat empat jenis reduplikasi yang dibedakan dalam kamus MALINDO Morph, yaitu
 - `Melayu-Standard-Lisan`: [Korpus Variasi Bahasa Melayu: Standard Lisan](https://github.com/matbahasa/Melayu_Standard_Lisan)
 - `Melayu-Sabah`: [Korpus Variasi Bahasa Melayu: Sabah](https://github.com/matbahasa/Melayu_Sabah)
 - `Melayu-Sarawak`: [Korpus Variasi Bahasa Melayu: Sarawak](https://github.com/matbahasa/Melayu_Sarawak)
+- `Melayu-Brunei`: [Korpus Variasi Bahasa Melayu: Brunei](https://github.com/matbahasa/Melayu_Brunei)
+- `Indo-Jakarta-Lisan`: [Korpus Variasi Bahasa Melayu: Jakarta Lisan](https://github.com/matbahasa/)
 - `Lain`
 
 ### Notasi
