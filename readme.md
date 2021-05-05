@@ -1,5 +1,8 @@
 # MALINDO Morph
 
+Lihat buku nota Jupyter Notebook `contoh_penggunaan.ipynb` untuk penggunaan `morph_analyzer.py`.
+(_See the Jupyter Notebook file `contoh_penggunaan.ipynb` for the usage instructions for `morph_analyzer.py`._)
+
 **Bahasa Melayu** ([Bahasa Indonesia](#pendahuluan-1) mengikuti bahasa Melayu)
 
 ## Pendahuluan
