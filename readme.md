@@ -1,8 +1,5 @@
 # MALINDO Morph
 
-Lihat buku nota Jupyter Notebook `contoh_penggunaan.ipynb` untuk penggunaan `morph_analyzer.py`.
-(_See the Jupyter Notebook file `contoh_penggunaan.ipynb` for the usage instructions for `morph_analyzer.py`._)
-
 **Bahasa Melayu** ([Bahasa Indonesia](#pendahuluan-1) mengikuti bahasa Melayu)
 
 ## Pendahuluan
@@ -69,6 +66,7 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
 |20190129|233,372|cc 84,410; ec 48,347; ex 100,615|
 |20190923|234,274|cc 84,415; ec 49,686; ex 100,173|
 |20200917|234,567|cc 84,419; ec 53,072; ex  97,076|
+|20211116|241,911|cc 85,010; ec 60,634; ex  96,267|
 
 ---
 **Bahasa Indonesia**
@@ -137,3 +135,4 @@ Terdapat empat jenis reduplikasi yang dibedakan dalam kamus MALINDO Morph, yaitu
 |20190129|233.372|cc 84.410; ec 48.347; ex 100.615|
 |20190923|234.274|cc 84.415; ec 49.686; ex 100.173|
 |20200917|234.567|cc 84.419; ec 53.072; ex  97.076|
+|20211116|241.911|cc 85.010; ec 60.634; ex  96.267|
