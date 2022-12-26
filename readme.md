@@ -67,6 +67,7 @@ Terdapat empat jenis penggandaan yang dibezakan dalam kamus MALINDO Morph, iaitu
 |20190923|234,274|cc 84,415; ec 49,686; ex 100,173|
 |20200917|234,567|cc 84,419; ec 53,072; ex  97,076|
 |20211116|241,911|cc 85,010; ec 60,634; ex  96,267|
+|20221221|246,525|cc 85,644; ec 65,005; ex  95,876|
 
 ---
 **Bahasa Indonesia**
@@ -136,3 +137,4 @@ Terdapat empat jenis reduplikasi yang dibedakan dalam kamus MALINDO Morph, yaitu
 |20190923|234.274|cc 84.415; ec 49.686; ex 100.173|
 |20200917|234.567|cc 84.419; ec 53.072; ex  97.076|
 |20211116|241.911|cc 85.010; ec 60.634; ex  96.267|
+|20221221|246.525|cc 85.644; ec 65.005; ex  95.876|
